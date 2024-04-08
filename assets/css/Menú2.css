@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .loader-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .loader-wrapper img {
+    width: 100px; /* ajusta el tamaño según tu necesidad */
+    height: 100px; /* ajusta el tamaño según tu necesidad */
+    animation: spin 2s linear infinite; /* animación de rotación */
+  }
+  
+  .loading-text {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .content {
+    display: none; /* Oculta el contenido hasta que se cargue */
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
