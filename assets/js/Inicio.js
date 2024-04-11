@@ -5,3 +5,5 @@ document.getElementById("miBoton").addEventListener("mousedown", function() {
 document.getElementById("miBoton").addEventListener("mouseup", function() {
     this.style.backgroundColor = "transparent"; /* Restaura el color de fondo cuando se suelta el botón */
 });
+
+
