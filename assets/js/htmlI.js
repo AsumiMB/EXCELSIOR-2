@@ -7,5 +7,5 @@ var boton = document.getElementById('mostrarLogin');
 // Agregar un evento de clic al botón
 boton.addEventListener('click', function() {
     // Redirigir a otra página
-    window.location.href = 'inicio2.html';
+    window.location.href = 'index.html';
 });
